@@ -18,6 +18,8 @@
     <!--=============================================================================================================-->
     <link rel="stylesheet" href="./asset/vendor/icofont/icofont/icofont.min.css">
     <!--=============================================================================================================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--=============================================================================================================-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!--=============================================================================================================-->
@@ -28,7 +30,10 @@
     <!-- NAVBAR SECTION STARTS HERE -->
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Ariybi.B</a>
+        <a class="navbar-brand" href="https://internship.zuri.team">
+          <img src="./asset/img/hng8.png" alt="">
+          <span>HNGi8</span>
+        </a>
         <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon shadow-none"><div class="fas fa-award"></div></span>
         </button>
@@ -37,7 +42,6 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="#about">About</a>
             <a class="nav-link" href="#portfolio">Portfolio</a>
-            <!-- <a class="nav-link" href="#blog">Blog</a> -->
             <a class="nav-link" href="#contact">Contact</a>
           </div>
         </div>
@@ -48,15 +52,17 @@
     <!-- HOME SECTION STARTS HERE -->
     <section id="home">
         <div class="col-md-12 col-sm-12 col-lg-12 text-center d-flex align-items-center justify-content-center align-content-center landing-area flex-column py-4">
-        <h1 class="text-white text-name">Hi👋, I'm <span>Ariybi Baseet</span></h1>
+        <h1 class="text-white text-name">
+          <!-- Hi👋, I'm <span>Ariybi Baseet</span> -->
+        </h1>
         <p class="text-white text-stack">A Frontend Web Developer</p>
           <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-primary shadow-none c-btn">Hire Me</button>
-            <button type="button" class="btn btn-primary shadow-none c-btn" style="margin-left:10px;">Download My CV</button>
+            <a href="#about"><button type="button" class="btn btn-primary shadow-none c-btn">Check My Resume</button></a>
+            <!-- i will include this button later -->
+            <!-- <button type="button" class="btn btn-primary shadow-none c-btn" style="margin-left:10px;">Download My CV</button> -->
           </div>
           <div class="col-md-12 col-sm-12 col-lg-12 mt-5 mb-5 text-center">
             <a href="#" class="social-icon text-white"><i class="icofont-facebook"></i></a>
-            <!-- <a href="#" class="social-icon text-white"><i class="icofont-twitter"></i></a> -->
             <a href="#" class="social-icon text-white"><i class="icofont-slack"></i></a>
             <a href="https://github.com/Ariyibi-Baseet" class="social-icon text-white"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/ariyibi-baseet-oluwadamilare-7a15521b3/" class="social-icon text-white"><i class="fab fa-linkedin"></i></a>
@@ -70,22 +76,57 @@
     <!-- ABOUT SECTION STARTS HERE -->
     <section id="about">
       <div class="col-md-12 col-sm-12 col-lg-12 p-0">
-        <div class="container-fluid">
+        <div class="container">
         <h2 class="text-center abt-text mt-5 p-2">About Me</h1>
-        <div class="row mt-2">
-          <div class="col-md-12 pl-3">
-            <div class="container-fluid">
-              <h4 class="text-center background mt-5">Background</h4>
-            <p class="bg-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, tempora minima laboriosam reprehenderit dolor repudiandae a! Cumque consectetur minus optio quos nostrum asperiores corrupti reiciendis nesciunt ea repudiandae ratione vel nisi dignissimos et deleniti, dicta quae assumenda natus! Dolore dolorum culpa, eveniet quasi, fuga necessitatibus repellendus minus recusandae quia deleniti facilis officiis? Sunt illum libero ducimus expedita. Quisquam, maxime facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint magni repudiandae illum sequi! Perspiciatis sequi a veniam provident nobis beatae commodi, magni fuga delectus quos aspernatur ex tempore labore similique ipsam minima rem doloremque odio nemo? Sapiente, possimus dignissimos?
-            </p>
+        <div class="container row mt-5">
+          <div class="col-md-4 p-2 col-sm-12 mb-3 about-box">
+            <h3 class="about-box-h text-center">Profile</h3>
+            <p class="text-center">A solution-driven frontend web developer eager to contribute to team success through smart work, attention to detail and excellent organizational skills. Clear understanding of html5, css3, vanilla javascript, bootstrap and jquery. Motivated to learn and grow</p>
+            <h5><li>Education</li></h5>
+            <hr>
+            <p class="education">DOTS ICT INSTITUTE OF TECHNOLOGY, Abeokuta, Ogun State, Nigeria (2018-2020)<br>
+              <span class="certificate">National diploma, Computer Software Engineering</span></p>
           </div>
+          <div class="col-md-4 p-2 col-sm-12 mb-3 about-box">
+            <h3 class="about-box-h text-center">Experience</h3>
+            <p class="text-center certificate">Frontend Web Tutor</p>
+            <hr>
+            <p>I worked as a Web Tutor (frontend), teaching students how to create a more interactive and responsive website using HTML5, CSS3, Vanilla Js and Bootstrap.</p>
+            <p class="text-center certificate">Intern at Zuri Internship</p>
+            <hr>
+            <p>Work as intern at Zuri Internship to learn frontend development, work with team mate to build a world-class solutions</p>
           </div>
-          <div class="col-md-12">
-            <div class="container-fluid">
-            <h4 class="text-center skills mt-5">Skills</h4>
-          </div>
+          <div class="col-md-4 p-2 col-sm-12 mb-3 about-box">
+            <h3 class="about-box-h text-center">Skills</h3>
+            <div class="col-md-12 skills-box p-2 mt-3">
+              <div class="row d-flex">
+                <div class="col-md-6 s-inner-box" style="background-color:#E34c26;">
+                  <i class="fab fa-html5"></i>
+                  <span>HTML5</span>
+                </div>
+                <div class="col-md-6 s-inner-box" style="background-color:#264de4;">
+                  <i class="fab fa-css3-alt"></i>
+                  <span>CSS3</span>
+                </div>
+                <div class="col-md-6 s-inner-box" style="background-color:#f0db4f;">
+                  <i class="fab fa-js-square"></i>
+                  <span>JAVASCRIPT</span>
+                </div>
+                <div class="col-md-6 s-inner-box" style="background-color:#563d7c;">
+                  <i class="fab fa-bootstrap"></i>
+                  <span>BOOTSTRAP</span>
+                </div>
+                <div class="col-md-6 s-inner-box" style="background-color:#41b8b3;">
+                  <i class="fab fa-vuejs"></i>
+                  <span>VUE JS</span>
+                </div>
+                <div class="col-md-6 s-inner-box" style="background-color:#cc6699;">
+                  <i class="fab fa-sass"></i>
+                  <span>SASS</span>
+                </div>
+              </div>
             </div>
+          </div>
           </div>
 
           </div>
@@ -101,17 +142,17 @@
         <div class="container">
           <h2 class="text-center port-text mt-5 p-2">Portfolio</h1>
       </div>
-      <div class="container-fluid mt-5">
-        <p class="text-center port-p-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sed, quae vero reprehenderit nobis ipsam distinctio excepturi possimus a maiores fuga numquam iure? Itaque, velit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum in tempora impedit animi accusantium maxime nisi nostrum quasi minima soluta, iusto repellat repudiandae autem dolor?</p>
+      <div class="container-fluid mt-3">
+        <p class="text-center port-p-text">Having working with several teams, I have been able to put this project together and i'm hoping for more before the completion of this Internship</p>
 
         <div class="container-fluid">
           <div class="row d-flex flex-direction-row port-container">
             <div class="col-md-4 col-sm-6 mb-3">
               <div class="port-img">
-              <img src="./asset/img/home-bg.jpg" alt="">
+              <img src="./asset/img/porfolio/my-portfolio-img.PNG" alt="">
               <div class="overlay d-flex justify-content-center align-items-center flex-column">
-                <a href=""><button class="btn btn-block p-btn text-white">Live Preview</button></a>
-                <a href=""><button class="btn btn-block p-btn mt-3 text-white">Source Code</button></a>
+                <a href="#"><button class="btn btn-block p-btn text-white">Live Preview</button></a>
+                <a href="https://github.com/Ariyibi-Baseet/ariybi.resume"><button class="btn btn-block p-btn mt-3 text-white">Source Code</button></a>
               </div>
             </div>
             </div>
@@ -246,7 +287,7 @@
         <div class="container-fluid">
           <h2 class="text-center contact-text mt-5 p-2">Contact</h1>
           <div class="container">
-          <p class="mt-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptas, repellendus, asperiores iure deleniti consectetur impedit eum accusamus minima, tempora magni nesciunt repudiandae placeat dolores sed laborum doloribus error mollitia id nostrum perferendis. Blanditiis, quam quaerat. Earum placeat doloremque porro eos debitis. Accusantium, necessitatibus facilis animi accusamus distinctio amet ex.</p>
+          <!-- <p class="mt-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptas, repellendus, asperiores iure deleniti consectetur impedit eum accusamus minima, tempora magni nesciunt repudiandae placeat dolores sed laborum doloribus error mollitia id nostrum perferendis. Blanditiis, quam quaerat. Earum placeat doloremque porro eos debitis. Accusantium, necessitatibus facilis animi accusamus distinctio amet ex.</p> -->
 
           <div class="row mt-5">
             <div class="col-md-6 mb-5">
@@ -311,7 +352,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="./asset/js/bootstrap.min.js"></script>
-    <script src="./asset/vendor/particlesJs/particles.min.js"></script>
-    <script src="./asset/vendor/particlesJs/app.js"></script>
+    <script src="./asset/js/typewriting.js"></script>
   </body>
 </html>
