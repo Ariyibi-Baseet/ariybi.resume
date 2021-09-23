@@ -7,6 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Poppins', sans-serif;
 }
@@ -26,9 +30,18 @@ body p{
   color:#ffffff;
 }
 
-.navbar-brand img{
-  width:3.1rem;
-  height:3.1rem;
+.navbar-brand h1 span{
+  color:var(--french-rose);
+}
+
+.navbar-brand h1:hover{
+  color:var(--french-rose);
+  transition:300ms ease-in;
+}
+
+.navbar-brand h1:hover span{
+  color:#fff;
+  transition:300ms ease-in;
 }
 
 .nav-link{
@@ -72,6 +85,10 @@ section#home{
   min-height:inherit;
   position:relative;
   /* position:absolute; */
+}
+
+.landing-icon a{
+  cursor:pointer;
 }
 
 .text-name{
@@ -214,6 +231,7 @@ section#home{
 .s-inner-box span{
   font-size:16px;
   font-weight:bold;
+  text-align:center;
   color:#fff;
 }
 /* ends here */
