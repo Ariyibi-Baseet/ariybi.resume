@@ -291,7 +291,7 @@
 
           <div class="row mt-5">
             <div class="col-md-6 mb-5">
-              <form method="POST" data-netlify="true">
+              <form name="contact" method="POST" data-netlify="true">
                 <div class="row">
                   <div class="form-group col-md-6 mb-3">
                     <label for="inputEmail4">Name <span style="color:red;font-weight: bold;">*</span></label>
@@ -305,6 +305,7 @@
                 <div class="form-group mt-2">
                   <label for="inputAddress">Message <span style="color:red;font-weight: bold;">*</span></label>
                   <textarea name="message" id="" cols="30" rows="10" class="form-control shadow-none" style="resize:none;" placeholder="drop your message here..."></textarea>
+                  <input type="hidden" name="contact" value="contact">
                 </div>
                 <button type="button" name="submit" class="btn btn-primary contact-btn float-right mt-2 shadow-none">Contact Me</button>
               </form>
